@@ -1,0 +1,221 @@
+2020-02-05 19:36:15 INFO  EmployeesRestAPI:36 - *********Started TC002_Get_Single_Employee_Record **********
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:107 - ***********  Checking Content Length **********
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:109 - Content Length is==>1057
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:88 - ***********  Checking Content Type **********
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:90 - Content type is ==>text/html; charset=UTF-8
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:48 - ***********  Checking Response Body **********
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:50 - Response Body==><script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=32', true, [], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=32', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'>(function(){function b(g,c){for(var e=0;e<c.length;e++){var d=c[e];if(0==d.complete||"undefined"!=typeof d.readyState&&4>d.readyState){var f=d.getAttribute("src")||d.currentSrc;"undefined"!=typeof d.readyState&&0==d.readyState?d.addEventListener("loadstart",function(h){var k=h.getAttribute("src")||h.currentSrc;window.ezorqs(h,k)}):(f=d.getAttribute("src")||d.currentSrc,window.ezorqs(d,f));d.addEventListener("load",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,
+k)});d.addEventListener("loadeddata",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)});d.addEventListener("error",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)})}}}function a(g){for(var c=0;c<document.styleSheets.length;c++)if(document.styleSheets[c].href==g)return!0;return!1}b("img",document.querySelectorAll("img"));b("video",document.querySelectorAll("video"));b("audio",document.querySelectorAll("audio"));
+(function(g){for(var c=0;c<g.length;c++){var e=g[c];if(("preload"==e.getAttribute("rel")||"stylesheet"==e.getAttribute("rel"))&&null!=e.getAttribute("href")&&a(e.getAttribute("href"))){window.ezorqs(e,e.getAttribute("href"));var d=document.createElement("img");d.onerror=function(f){"undefined"!=typeof f.path&&"undefined"!=typeof f.path[0].currentSrc?window.ezorqe(e,f.path[0].currentSrc):"undefined"!=typeof f.srcElement&&"undefined"!=typeof f.srcElement.href&&window.ezorqe(e,f.srcElement.href)};d.src=
+e.getAttribute("href")}}})(document.querySelectorAll("link"));"undefined"!=typeof window.__ez.ssaf&&-1<window.__ez.ssaf.indexOf(16)&&"undefined"!==typeof window.__ez.sshsdef&&!1===window.__ez.sshsdef&&Element.prototype.addEventListener&&("function"==typeof window.onload&&(window.addEventListener("load",window.onload),window.onload=null),"function"==typeof document.onload&&(document.addEventListener.addEventListener("load",document.onload),document.onload=null))})();</script>
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:66 - ***********  Checking Response Time **********
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:68 - Response Time is ==>945
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:97 - ***********  Checking Server Type **********
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:99 - Server Type is =>nginx/1.16.0
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:57 - ***********  Checking Status Code **********
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:59 - Status Code is ==>200
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:78 - ***********  Checking Status Line **********
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:80 - Status Line is ==>HTTP/1.1 200 OK
+2020-02-05 19:36:23 INFO  EmployeesRestAPI:116 - *********  Finished TC002_Get_Single_Employee_Record **********
+2020-02-05 19:40:40 INFO  EmployeesRestAPI:43 - *********Started TC003_Post_Employee_Record **********
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:103 - ***********  Checking Content Type **********
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:106 - Content Type is==>application/json;charset=utf-8
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:70 - ***********  Checking Respose Body **********
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:73 - Response Body is==>{"status":"success","data":{"name":"JohnK","salary":"21027","age":"52","id":53}}
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:82 - ***********  Checking Status Code **********
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:85 - Status Code is==>200
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:113 - ***********  Checking Server Type **********
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:116 - Server Type is==>nginx/1.16.0
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:92 - ***********  Checking Status Line **********
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:95 - Status Line is==>HTTP/1.1 200 OK
+2020-02-05 19:40:47 INFO  EmployeesRestAPI:134 - *********  Finished TC003_Post_Employee_Record **********
+2020-02-05 19:41:19 INFO  EmployeesRestAPI:42 - *********Started TC004_Put_Employee_Record **********
+2020-02-05 19:41:26 INFO  EmployeesRestAPI:116 - *********  Finished TC004_Put_Employee_Record **********
+2020-02-05 19:54:24 INFO  EmployeesRestAPI:38 - *********Started TC005_Delete_Employee_Record **********
+2020-02-05 19:54:29 INFO  EmployeesRestAPI:103 - *********  Finished TC005_Delete_Employee_Record **********
+2020-02-05 19:58:07 INFO  EmployeesRestAPI:36 - *********Started TC001_Get_All_Employees **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:122 - ***********  Checking Content Encoding**********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:125 - Content Encoding is==>gzip
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:134 - ***********  Checking Content Length**********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:137 - Content Length is==>595
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:99 - ***********  Checking Content Type **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:102 - Content type is ==>application/json;charset=utf-8
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:149 - ***********  Checking Cookies **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:48 - ***********  Checking Response Body **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:51 - Response Body==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:70 - ***********  Checking Response Time **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:73 - Response Time is ==>1020
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:110 - ***********  Checking Server Type **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:113 - Server Type is =>nginx/1.16.0
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:59 - ***********  Checking Status Code **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:62 - Status Code is ==>200
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:86 - ***********  Checking Status Line **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:89 - Status Line is ==>HTTP/1.1 200 OK
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:159 - *********  Finished TC001_Get_All_Employees **********
+2020-02-05 19:58:09 INFO  EmployeesRestAPI:36 - *********Started TC002_Get_Single_Employee_Record **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:107 - ***********  Checking Content Length **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:109 - Content Length is==>1057
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:88 - ***********  Checking Content Type **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:90 - Content type is ==>text/html; charset=UTF-8
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:48 - ***********  Checking Response Body **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:50 - Response Body==><script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=32', true, [], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=32', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'>(function(){function b(g,c){for(var e=0;e<c.length;e++){var d=c[e];if(0==d.complete||"undefined"!=typeof d.readyState&&4>d.readyState){var f=d.getAttribute("src")||d.currentSrc;"undefined"!=typeof d.readyState&&0==d.readyState?d.addEventListener("loadstart",function(h){var k=h.getAttribute("src")||h.currentSrc;window.ezorqs(h,k)}):(f=d.getAttribute("src")||d.currentSrc,window.ezorqs(d,f));d.addEventListener("load",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,
+k)});d.addEventListener("loadeddata",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)});d.addEventListener("error",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)})}}}function a(g){for(var c=0;c<document.styleSheets.length;c++)if(document.styleSheets[c].href==g)return!0;return!1}b("img",document.querySelectorAll("img"));b("video",document.querySelectorAll("video"));b("audio",document.querySelectorAll("audio"));
+(function(g){for(var c=0;c<g.length;c++){var e=g[c];if(("preload"==e.getAttribute("rel")||"stylesheet"==e.getAttribute("rel"))&&null!=e.getAttribute("href")&&a(e.getAttribute("href"))){window.ezorqs(e,e.getAttribute("href"));var d=document.createElement("img");d.onerror=function(f){"undefined"!=typeof f.path&&"undefined"!=typeof f.path[0].currentSrc?window.ezorqe(e,f.path[0].currentSrc):"undefined"!=typeof f.srcElement&&"undefined"!=typeof f.srcElement.href&&window.ezorqe(e,f.srcElement.href)};d.src=
+e.getAttribute("href")}}})(document.querySelectorAll("link"));"undefined"!=typeof window.__ez.ssaf&&-1<window.__ez.ssaf.indexOf(16)&&"undefined"!==typeof window.__ez.sshsdef&&!1===window.__ez.sshsdef&&Element.prototype.addEventListener&&("function"==typeof window.onload&&(window.addEventListener("load",window.onload),window.onload=null),"function"==typeof document.onload&&(document.addEventListener.addEventListener("load",document.onload),document.onload=null))})();</script>
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:66 - ***********  Checking Response Time **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:68 - Response Time is ==>518
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:97 - ***********  Checking Server Type **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:99 - Server Type is =>nginx/1.16.0
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:57 - ***********  Checking Status Code **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:59 - Status Code is ==>200
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:78 - ***********  Checking Status Line **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:80 - Status Line is ==>HTTP/1.1 200 OK
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:116 - *********  Finished TC002_Get_Single_Employee_Record **********
+2020-02-05 19:58:16 INFO  EmployeesRestAPI:43 - *********Started TC003_Post_Employee_Record **********
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:103 - ***********  Checking Content Type **********
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:106 - Content Type is==>application/json;charset=utf-8
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:70 - ***********  Checking Respose Body **********
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:73 - Response Body is==>{"status":"success","data":{"name":"JohnV","salary":"51558","age":"74","id":94}}
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:82 - ***********  Checking Status Code **********
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:85 - Status Code is==>200
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:113 - ***********  Checking Server Type **********
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:116 - Server Type is==>nginx/1.16.0
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:92 - ***********  Checking Status Line **********
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:95 - Status Line is==>HTTP/1.1 200 OK
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:134 - *********  Finished TC003_Post_Employee_Record **********
+2020-02-05 19:58:22 INFO  EmployeesRestAPI:42 - *********Started TC004_Put_Employee_Record **********
+2020-02-05 19:58:28 INFO  EmployeesRestAPI:116 - *********  Finished TC004_Put_Employee_Record **********
+2020-02-05 19:58:28 INFO  EmployeesRestAPI:38 - *********Started TC005_Delete_Employee_Record **********
+2020-02-05 19:58:32 INFO  EmployeesRestAPI:103 - *********  Finished TC005_Delete_Employee_Record **********
+2020-02-06 09:34:12 INFO  EmployeesRestAPI:36 - *********Started TC001_Get_All_Employees **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:122 - ***********  Checking Content Encoding**********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:125 - Content Encoding is==>gzip
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:134 - ***********  Checking Content Length**********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:137 - Content Length is==>595
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:99 - ***********  Checking Content Type **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:102 - Content type is ==>application/json;charset=utf-8
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:149 - ***********  Checking Cookies **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:48 - ***********  Checking Response Body **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:51 - Response Body==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:70 - ***********  Checking Response Time **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:73 - Response Time is ==>1024
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:110 - ***********  Checking Server Type **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:113 - Server Type is =>nginx/1.16.0
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:59 - ***********  Checking Status Code **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:62 - Status Code is ==>200
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:86 - ***********  Checking Status Line **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:89 - Status Line is ==>HTTP/1.1 200 OK
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:159 - *********  Finished TC001_Get_All_Employees **********
+2020-02-06 09:34:21 INFO  EmployeesRestAPI:36 - *********Started TC002_Get_Single_Employee_Record **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:107 - ***********  Checking Content Length **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:109 - Content Length is==>1057
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:88 - ***********  Checking Content Type **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:90 - Content type is ==>text/html; charset=UTF-8
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:48 - ***********  Checking Response Body **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:50 - Response Body==><script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=32', true, [], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=32', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'>(function(){function b(g,c){for(var e=0;e<c.length;e++){var d=c[e];if(0==d.complete||"undefined"!=typeof d.readyState&&4>d.readyState){var f=d.getAttribute("src")||d.currentSrc;"undefined"!=typeof d.readyState&&0==d.readyState?d.addEventListener("loadstart",function(h){var k=h.getAttribute("src")||h.currentSrc;window.ezorqs(h,k)}):(f=d.getAttribute("src")||d.currentSrc,window.ezorqs(d,f));d.addEventListener("load",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,
+k)});d.addEventListener("loadeddata",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)});d.addEventListener("error",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)})}}}function a(g){for(var c=0;c<document.styleSheets.length;c++)if(document.styleSheets[c].href==g)return!0;return!1}b("img",document.querySelectorAll("img"));b("video",document.querySelectorAll("video"));b("audio",document.querySelectorAll("audio"));
+(function(g){for(var c=0;c<g.length;c++){var e=g[c];if(("preload"==e.getAttribute("rel")||"stylesheet"==e.getAttribute("rel"))&&null!=e.getAttribute("href")&&a(e.getAttribute("href"))){window.ezorqs(e,e.getAttribute("href"));var d=document.createElement("img");d.onerror=function(f){"undefined"!=typeof f.path&&"undefined"!=typeof f.path[0].currentSrc?window.ezorqe(e,f.path[0].currentSrc):"undefined"!=typeof f.srcElement&&"undefined"!=typeof f.srcElement.href&&window.ezorqe(e,f.srcElement.href)};d.src=
+e.getAttribute("href")}}})(document.querySelectorAll("link"));"undefined"!=typeof window.__ez.ssaf&&-1<window.__ez.ssaf.indexOf(16)&&"undefined"!==typeof window.__ez.sshsdef&&!1===window.__ez.sshsdef&&Element.prototype.addEventListener&&("function"==typeof window.onload&&(window.addEventListener("load",window.onload),window.onload=null),"function"==typeof document.onload&&(document.addEventListener.addEventListener("load",document.onload),document.onload=null))})();</script>
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:66 - ***********  Checking Response Time **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:68 - Response Time is ==>618
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:97 - ***********  Checking Server Type **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:99 - Server Type is =>nginx/1.16.0
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:57 - ***********  Checking Status Code **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:59 - Status Code is ==>200
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:78 - ***********  Checking Status Line **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:80 - Status Line is ==>HTTP/1.1 200 OK
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:116 - *********  Finished TC002_Get_Single_Employee_Record **********
+2020-02-06 09:34:29 INFO  EmployeesRestAPI:43 - *********Started TC003_Post_Employee_Record **********
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:103 - ***********  Checking Content Type **********
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:106 - Content Type is==>application/json;charset=utf-8
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:70 - ***********  Checking Respose Body **********
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:73 - Response Body is==>{"status":"success","data":{"name":"JohnW","salary":"66053","age":"93","id":26}}
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:82 - ***********  Checking Status Code **********
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:85 - Status Code is==>200
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:113 - ***********  Checking Server Type **********
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:116 - Server Type is==>nginx/1.16.0
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:92 - ***********  Checking Status Line **********
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:95 - Status Line is==>HTTP/1.1 200 OK
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:134 - *********  Finished TC003_Post_Employee_Record **********
+2020-02-06 09:34:36 INFO  EmployeesRestAPI:42 - *********Started TC004_Put_Employee_Record **********
+2020-02-06 09:34:44 INFO  EmployeesRestAPI:116 - *********  Finished TC004_Put_Employee_Record **********
+2020-02-06 09:34:44 INFO  EmployeesRestAPI:38 - *********Started TC005_Delete_Employee_Record **********
+2020-02-06 09:34:50 INFO  EmployeesRestAPI:103 - *********  Finished TC005_Delete_Employee_Record **********
+2020-02-06 11:04:43 INFO  EmployeesRestAPI:36 - *********Started TC001_Get_All_Employees **********
+2020-02-06 11:04:51 INFO  EmployeesRestAPI:122 - ***********  Checking Content Encoding**********
+2020-02-06 11:04:51 INFO  EmployeesRestAPI:125 - Content Encoding is==>gzip
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:134 - ***********  Checking Content Length**********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:137 - Content Length is==>595
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:99 - ***********  Checking Content Type **********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:102 - Content type is ==>application/json;charset=utf-8
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:149 - ***********  Checking Cookies **********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:48 - ***********  Checking Response Body **********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:51 - Response Body==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:70 - ***********  Checking Response Time **********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:73 - Response Time is ==>1110
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:110 - ***********  Checking Server Type **********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:113 - Server Type is =>nginx/1.16.0
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:59 - ***********  Checking Status Code **********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:62 - Status Code is ==>200
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:86 - ***********  Checking Status Line **********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:89 - Status Line is ==>HTTP/1.1 200 OK
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:159 - *********  Finished TC001_Get_All_Employees **********
+2020-02-06 11:04:52 INFO  EmployeesRestAPI:36 - *********Started TC002_Get_Single_Employee_Record **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:107 - ***********  Checking Content Length **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:109 - Content Length is==>1057
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:88 - ***********  Checking Content Type **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:90 - Content type is ==>text/html; charset=UTF-8
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:48 - ***********  Checking Response Body **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:50 - Response Body==><script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=32', true, [], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=32', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript' data-cfasync='false'>(function(){function b(g,c){for(var e=0;e<c.length;e++){var d=c[e];if(0==d.complete||"undefined"!=typeof d.readyState&&4>d.readyState){var f=d.getAttribute("src")||d.currentSrc;"undefined"!=typeof d.readyState&&0==d.readyState?d.addEventListener("loadstart",function(h){var k=h.getAttribute("src")||h.currentSrc;window.ezorqs(h,k)}):(f=d.getAttribute("src")||d.currentSrc,window.ezorqs(d,f));d.addEventListener("load",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,
+k)});d.addEventListener("loadeddata",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)});d.addEventListener("error",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)})}}}function a(g){for(var c=0;c<document.styleSheets.length;c++)if(document.styleSheets[c].href==g)return!0;return!1}b("img",document.querySelectorAll("img"));b("video",document.querySelectorAll("video"));b("audio",document.querySelectorAll("audio"));
+(function(g){for(var c=0;c<g.length;c++){var e=g[c];if(("preload"==e.getAttribute("rel")||"stylesheet"==e.getAttribute("rel"))&&null!=e.getAttribute("href")&&a(e.getAttribute("href"))){window.ezorqs(e,e.getAttribute("href"));var d=document.createElement("img");d.onerror=function(f){"undefined"!=typeof f.path&&"undefined"!=typeof f.path[0].currentSrc?window.ezorqe(e,f.path[0].currentSrc):"undefined"!=typeof f.srcElement&&"undefined"!=typeof f.srcElement.href&&window.ezorqe(e,f.srcElement.href)};d.src=
+e.getAttribute("href")}}})(document.querySelectorAll("link"));"undefined"!=typeof window.__ez.ssaf&&-1<window.__ez.ssaf.indexOf(16)&&"undefined"!==typeof window.__ez.sshsdef&&!1===window.__ez.sshsdef&&Element.prototype.addEventListener&&("function"==typeof window.onload&&(window.addEventListener("load",window.onload),window.onload=null),"function"==typeof document.onload&&(document.addEventListener.addEventListener("load",document.onload),document.onload=null))})();</script>
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:66 - ***********  Checking Response Time **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:68 - Response Time is ==>496
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:97 - ***********  Checking Server Type **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:99 - Server Type is =>nginx/1.16.0
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:57 - ***********  Checking Status Code **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:59 - Status Code is ==>200
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:78 - ***********  Checking Status Line **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:80 - Status Line is ==>HTTP/1.1 200 OK
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:116 - *********  Finished TC002_Get_Single_Employee_Record **********
+2020-02-06 11:04:59 INFO  EmployeesRestAPI:43 - *********Started TC003_Post_Employee_Record **********
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:103 - ***********  Checking Content Type **********
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:106 - Content Type is==>application/json;charset=utf-8
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:70 - ***********  Checking Respose Body **********
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:73 - Response Body is==>{"status":"success","data":{"name":"Johnd","salary":"49534","age":"68","id":35}}
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:82 - ***********  Checking Status Code **********
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:85 - Status Code is==>200
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:113 - ***********  Checking Server Type **********
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:116 - Server Type is==>nginx/1.16.0
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:92 - ***********  Checking Status Line **********
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:95 - Status Line is==>HTTP/1.1 200 OK
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:134 - *********  Finished TC003_Post_Employee_Record **********
+2020-02-06 11:05:07 INFO  EmployeesRestAPI:42 - *********Started TC004_Put_Employee_Record **********
+2020-02-06 11:05:14 INFO  EmployeesRestAPI:116 - *********  Finished TC004_Put_Employee_Record **********
+2020-02-06 11:05:14 INFO  EmployeesRestAPI:38 - *********Started TC005_Delete_Employee_Record **********
+2020-02-06 11:05:21 INFO  EmployeesRestAPI:103 - *********  Finished TC005_Delete_Employee_Record **********
